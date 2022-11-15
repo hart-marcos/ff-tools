@@ -1,0 +1,6 @@
+<?php
+
+echo '<html> <body> <style> .overlay { position: fixed; top: 0; bottom: 0; left: 0; right: 0; background: rgba(0, 0, 0, 0.7); transition: opacity 500ms; visibility: hidden; opacity: 0; } .overlay:target { visibility: visible; opacity: 1; } .popup { margin: 70px auto; padding: 20px; background: #fff; border-radius: 5px; width: 30%; position: relative; transition: all 5s ease-in-out; } .popup h2 { margin-top: 0; color: #333; font-family: Tahoma, Arial, sans-serif; } .popup .close { position: absolute; top: 20px; right: 30px; transition: all 200ms; font-size: 30px; font-weight: bold; text-decoration: none; color: #333; } .popup .close:hover { color: #06D85F; } .popup .content { max-height: 30%; overflow: auto; } @media screen and (max-width: 700px){ .box{ width: 70%; } .popup{ width: 70%; } } .center { display: block; margin-left: auto; margin-right: auto; padding: 5px; } </style> <div id="popup1" class="overlay"> <div class="popup"> <h2 style="text-align: center;">عالم الفاملي فارم</h2> <a class="close" href="#">&times;</a> <br> <img src="https://ffh5.akamaized.net/static/v3/resource/assets/Module/images_75/Gasoline.png" class="center" /> <h3 class="content" style="text-align: center;" > تم ارسال 10 بنزين </h3> <br> </div> </div> <script> window.location.href= "#popup1"; window.location.href="google.com" </script> </body> </html>';
+
+
+?>
